@@ -45,6 +45,7 @@ header .header-container {
     margin-right: 332px;
     justify-content: center;
     align-items: center;
+
 }
 
 
@@ -54,6 +55,7 @@ header .contacts-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 0px;
 }
 
 .webstudio {
@@ -81,6 +83,7 @@ header .email {
     margin-right: 40px;
 }
 
+
 .nav {
     color: var(--NAVY-BLUE, #2E2F42);
     
@@ -97,17 +100,19 @@ header .email {
 }
 
 .contacts-menu {
-    color: var(--SLATE, #434455);
-    
-        /* Body */
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
-        /* 150% */
-        letter-spacing: 0.32px;
+color: var(--SLATE, #434455);
+
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
         display: flex;
+        flex-direction: row;
+        max-height: 72px;
 }
     /* Hero Image Section */
 
