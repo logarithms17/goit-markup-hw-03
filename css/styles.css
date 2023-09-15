@@ -27,7 +27,6 @@ header {
     display: flex;
     flex-direction: row;
     max-height: 72px;
-    background-color: #a6e54d;
     padding-left: 156px;
     padding-right: 156px;
 }
@@ -38,12 +37,10 @@ header .header-container {
     align-items: center;
     padding-right: 76px;
     max-height: 72px;
-    background-color: #F4F4FD;
 }
 
 .menu {
     display: flex;
-    background-color: red;
     max-height: 72px;
     margin-right: 332px;
     justify-content: center;
@@ -53,7 +50,6 @@ header .header-container {
 
 
 header .contacts-container {
-    background-color: #a6afae;
     max-height: 72px;
     display: flex;
     justify-content: center;
@@ -97,7 +93,6 @@ header .email {
         /* 150% */
         letter-spacing: 0.32px;
         display: flex;
-        background-color: red;
 
 }
 
@@ -112,6 +107,7 @@ header .email {
         line-height: 24px;
         /* 150% */
         letter-spacing: 0.32px;
+        display: flex;
 }
     /* Hero Image Section */
 
