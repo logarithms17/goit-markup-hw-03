@@ -4,29 +4,60 @@ body {
 }
 
 ul {
-    padding-left: 0px;
     display: inline-block;
-    flex-wrap: nowrap;
+    padding-left: 0px;
 }
 li {
     list-style: none;
     display: inline-block;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.section1,
+.section2,
+.section3 {
+    padding: 0px 156px 0px 156px;
+}
+
 header {
     display: flex;
+    flex-direction: row;
+    max-height: 72px;
+    background-color: #a6e54d;
+    padding-left: 156px;
+    padding-right: 156px;
 }
 
-.contacts {
+header .header-container {
     display: flex;
-    display: inline-block;
-    justify-content: flex-end;
-    justify-items: flex-end;
-
+    justify-content: center;
+    align-items: center;
+    padding-right: 76px;
+    max-height: 72px;
+    background-color: #F4F4FD;
 }
 
-header, .section1, .section2, .section3{
-    padding: 0px 156px 0px 156px;
+.menu {
+    display: flex;
+    background-color: red;
+    max-height: 72px;
+    margin-right: 332px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+header .contacts-container {
+    background-color: #a6afae;
+    max-height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .webstudio {
@@ -39,8 +70,8 @@ header, .section1, .section2, .section3{
         /* 116.667% */
         letter-spacing: 0.54px;
         text-transform: uppercase;
-        margin-right: 76px;
 }
+
 
 span {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -50,8 +81,8 @@ span {
     margin-right: 40px;
 }
 
-.contacts {
-    margin-right: 332px;
+header .email {
+    margin-right: 40px;
 }
 
 .nav {
@@ -65,12 +96,9 @@ span {
         line-height: 24px;
         /* 150% */
         letter-spacing: 0.32px;
+        display: flex;
+        background-color: red;
 
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
 }
 
 .contacts-menu {
@@ -85,11 +113,6 @@ a {
         /* 150% */
         letter-spacing: 0.32px;
 }
-
-.email {
-    margin-right: 40px;
-}
-
     /* Hero Image Section */
 
 .hero-image {
@@ -156,7 +179,6 @@ button {
     margin: 0px;
     display: flex;
 }
-
 h3 {
     color: var(--NAVY-BLUE, #2E2F42);
     
