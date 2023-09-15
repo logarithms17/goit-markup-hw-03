@@ -1,0 +1,214 @@
+body {
+    max-width: 1440px;
+}
+
+ul {
+    padding-left: 0px;
+}
+li {
+    list-style: none;
+}
+
+header, .section1, .section2, .section3{
+    margin: 0px 156px 0px 156px;
+}
+
+.webstudio {
+    color: var(--IRIS, #4D5AE5);
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 21px;
+        /* 116.667% */
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+}
+
+span {
+    color: var(--NAVY-BLUE, #2E2F42);
+}
+
+
+
+.nav {
+    color: var(--NAVY-BLUE, #2E2F42);
+    
+        /* Body Medium */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.32px;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contacts {
+    color: var(--SLATE, #434455);
+    
+        /* Body */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.32px;
+}
+
+    /* Hero Image Section */
+
+.hero-image {
+    height: 600px;
+    background-color: rgba(46, 47, 66, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 472px 0px 472px;
+}
+
+main h1 {
+    color: var(--WHITE, #FFF);
+    
+        /* Header 1 */
+        font-family: Roboto;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 1.12px;
+        margin-top: 186px;
+        margin-bottom: 48px;
+}
+
+button {
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--IRIS, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--WHITE, #FFF);
+    /* Button Text */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.64px;
+    margin-bottom: 188px;
+    cursor: pointer;
+}
+
+    /* Section 1 */
+
+h3 {
+    color: var(--NAVY-BLUE, #2E2F42);
+    
+        /* Header 3 */
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 120% */
+        letter-spacing: 0.4px;
+        width: 264px;
+}
+
+.section1 p {
+    color: var(--SLATE, #434455);
+    
+        /* Body */
+        font-family: Roboto;
+        font-size: 16px;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.32px;
+        width: 264px;
+}
+
+    /* Section 2 */
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section2 li {
+    display: inline-block;
+}
+
+
+/* Section 3 */
+
+.section3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+}
+
+.section3 li {
+    display: inline-block;
+}
+
+.section3 img {
+    width: 264px;
+    height: 260px;
+}
+
+/* FOOTER */
+
+footer {
+    background: var(--NAVY-BLUE, #2E2F42);
+    padding-left: 156px;
+}
+
+footer a {
+    color: var(--IRIS, #4D5AE5);
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 21px;
+        /* 116.667% */
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+}
+
+footer .studio {
+    color: var(--CLOUD, #F4F4FD);
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 21px;
+        /* 116.667% */
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+}
+
+footer p {
+    width: 264px;
+    color: var(--CLOUD, #F4F4FD);
+    
+        /* Body */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.32px;
+}
